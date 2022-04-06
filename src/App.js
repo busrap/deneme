@@ -14,14 +14,29 @@ function App() {
 
         <h4>App component</h4>
 
-        <Navbar title ="user app"/>
+        <Navbar
+          title="1. USER"
+          name="Fahriye"
+          surname="Evcen"
+          age="30"
 
-        <User 
-        
-        name="Busra"
-        departman="eğitim"
-        maas="8k"
-        
+        />
+
+        <Navbar
+          title="2. USER"
+          name="Murat"
+          surname="Gögebakan"
+          age="65"
+
+        />
+
+
+        <User
+
+          name="Busra"
+          departman="eğitim"
+          maas="8k"
+
         />
 
       </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+//class base component
 class User extends Component {
   render() {
     return (
