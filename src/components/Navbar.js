@@ -13,6 +13,7 @@ const Navbar = (props) => {
   );
 };
 //Navbar başka bir alanda kullanılacağı zaman propTypes'ı string olan bir title adında bir prop göndermek zorundayız
+//Bu alan 3. puhs da görüntülenecek olan alan
 Navbar.propTypes = {
   title : PropTypes.string.isRequired
 };
