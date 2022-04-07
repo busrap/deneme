@@ -18,6 +18,8 @@ class User extends Component {
   }
 }
 
+//Bu alan 3. puhs da görüntülenecek olan alan
+
 User.propTypes ={
   name: PropTypes.string.isRequired,
   departman: PropTypes.string.isRequired,
