@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import PropTypes from 'prop-types'
+
+
 
 //class base component
 class User extends Component {
@@ -13,5 +16,11 @@ class User extends Component {
       </div>
     );
   }
+}
+
+User.propTypes ={
+  name: PropTypes.string.isRequired,
+  departman: PropTypes.string.isRequired,
+  maas : PropTypes.string.isRequired
 }
 export default User;
