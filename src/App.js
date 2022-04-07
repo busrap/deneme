@@ -15,7 +15,7 @@ function App() {
         <h4>App component</h4>
 
         <Navbar
-          title="1. USER"
+    
           name="Fahriye"
           surname="Evcen"
           age="30"
